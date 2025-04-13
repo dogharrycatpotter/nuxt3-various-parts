@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "nuxt3-various-parts",
+      "path": ".",
+    },
+  ],
+  "settings": {
+    // ワークスペースとして開いた場合、.vscode/settings.jsonよりこの定義が優先
+    // ワークスペースとして開く or フォルダとして開く両方に対応できるように.vscode/settings.jsonと同じにしておく
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports": "explicit",
+    },
+    "prettier.enable": true,
+    "prettier.ignorePath": ".gitignore",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.enabledDiagnosticLevels": ["error", "warning"],
+    "vue.complete.casing.props": "camel",
+    "vue.complete.casing.tags": "pascal",
+  },
+}
